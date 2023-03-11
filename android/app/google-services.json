@@ -7,7 +7,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:610588146245:android:30eb522548c8221077012c",
+        "mobilesdk_app_id": "1:610588146245:android:9d3a4f31e7a2c64077012c",
         "android_client_info": {
           "package_name": "com.example.lets_meet"
         }
@@ -29,6 +29,13 @@
             {
               "client_id": "610588146245-bdect5nj2naf95i8olsvdja9g29ef1sl.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "610588146245-mumf6magqkia4u72s1jq24gpl4rnkc6u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.letsMeet"
+              }
             }
           ]
         }
