@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lets_meet/src/pages/pages.dart';
 import 'package:lets_meet/src/state/user.dart';
+import 'package:lets_meet/src/theme.dart';
 
 class App extends ConsumerStatefulWidget {
   const App({super.key});
@@ -24,6 +25,7 @@ class _AppState extends ConsumerState<App> {
     BuildContext context,
   ) {
     return MaterialApp(
+      theme: theme,
       routes: {
         '/': (_) => const LandingPage(),
       },
